@@ -1,4 +1,4 @@
-#Using dnsmasq to make bind9 resolver crash.md
+# Using dnsmasq to make bind9 resolver crash.md
 ### Summary
 
 The BIND9 resolver contains a vulnerability where an attacker can exploit it by delegating domain queries to a dnsmasq forwarder (whose forwarder is the victim's BIND9 resolver). This causes the BIND9 resolver and the dnsmasq forwarder to exchange a large volume of oversized data packets, while simultaneously forcing the BIND9 resolver to continuously traverse its cache, consuming resources until they are exhausted, ultimately leading to process crash.
