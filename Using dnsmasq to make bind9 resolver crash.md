@@ -2050,29 +2050,3 @@ bc4d1f763d1d   nxns-resolver1   --        -- / --             --        --      
 [J
 ```
 
-### Coordination
-
-- Does this issue affect multiple implementations?
-
-This issue could also cause dnsmasq to suffer the same consequences. I have not yet tested other implementations.
-
-- Have you shared the information with anyone else?
-
-No, I only informed my other colleagues in the lab.
-
-
-- What is your plan to publicize this issue?
-
-We plan to apply for a CVE vulnerability and publish a conference paper.
-
-
-### Acknowledgements
-
-Jun Kong,School of Cybersecurity, Northwestern Polytechnical University
-Jiapeng Li,School of Cybersecurity, Northwestern Polytechnical University
-Mingkai Yu,School of Cybersecurity, Northwestern Polytechnical University
-
-<!-- DO NOT modify the following two lines. -->
-
-/label ~Bug ~Security
-/confidential
